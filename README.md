@@ -2,7 +2,7 @@
 
 In this project, I have made a model to predict house prices based on the data given. 
 
-The model is a linear regression model which was further improved by Tikhonov regularization-or commonly known as Ridge Regression. 
+The model chosen is a linear regression model which was further improved by Tikhonov regularization-or commonly known as Ridge Regression. 
 
 It was also evaluated with k-fold cross-validation.
 
