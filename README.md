@@ -1,6 +1,6 @@
 # Predicting House Prices
 
-In this project, I have made a model to predict house prices based on the data given. 
+A data science project that takes raw data and makes a model to predict house prices 
 
 The model chosen is a linear regression model which was further improved by Tikhonov regularization-or commonly known as Ridge Regression. 
 
