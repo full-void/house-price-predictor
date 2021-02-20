@@ -1,7 +1,14 @@
 # Predicting House Prices
--------------------------
 
-In this repository, I have made a model to predict house prices based on the data given. There are two parts of it:
+In this project, I have made a model to predict house prices based on the data given. 
+
+The model is a linear regression model which was further improved by Tikhonov regularization-or commonly known as Ridge Regression. 
+
+It was also evaluated with k-fold cross-validation.
+
+The project takes all the necessary steps: cleaning and refining it the data, conducting exploratory analysis, creating a linear model, ridge regression and cross-validation.   
+
+Structurally, there are two parts of it:
 * Data wrangling (or cleaning) and Exploratory Data Analysis
 * Model building and evalution
 
