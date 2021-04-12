@@ -56,3 +56,25 @@ __long__: Longitude coordinate
 __sqft_living15__ : Living room area in 2015(implies-- some renovations) This might or might not have affected the lotsize area
 
 __sqft_lot15__ : LotSize area in 2015(implies-- some renovations)
+
+## The Notebooks
+The notebooks go through the entire process of model development. It includes: 
+* Data Wrangling
+    - Removing problematic data
+    - Taking care of NA Values
+    - Saving multiple versions of incrementally cleaned data
+* Exploratory Analysis
+    - Finding correlation with Pearson's coefficient
+    - Using scatterplots and boxplots to find relationships with the target variabless
+    - Using p-value to check for statistical significance
+* Multiple Linear Regression Model
+    - Building model
+    - Evaluating using metrics such as R-squared
+* Polynomial Regression
+    - Using Polynomial Features
+    - Creating a pipeline
+    - Evaluation
+* Ridge Regression
+    - Tuning Hyperparam 
+* Cross Validation
+* Conclusion
