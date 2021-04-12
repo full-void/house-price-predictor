@@ -1,13 +1,14 @@
 # Predicting House Prices
--------------------------
 
-In this repository, I have made a model to predict house prices based on the data given. There are two parts of it:
+A data science project that takes raw data and makes a model to predict house prices 
+
+The model chosen is a linear regression model which was further improved by Tikhonov regularization-or commonly known as Ridge Regression. 
+
+Structurally, there are two parts of it:
 * Data wrangling (or cleaning) and Exploratory Data Analysis
 * Model building and evalution
 
 The dataset is a modified version of [this Kaggle Dataset](https://www.kaggle.com/harlfoxem/housesalesprediction). 
-
-This is based upon the IBM's course on Data Analysis with Python.
 
 # Dataset
 
@@ -76,5 +77,5 @@ The notebooks go through the entire process of model development. It includes:
     - Evaluation
 * Ridge Regression
     - Tuning Hyperparam 
-* Cross Validation
+* k-fold Cross Validation
 * Conclusion
